@@ -25,3 +25,8 @@ char line[150];
     else if (line[i] >= '0' && line[i] <= '9') {
       ++digit;
     }
+  // check if the character is an empty space
+    else if (line[i] == ' ') {
+      ++space;
+    }
+  }
