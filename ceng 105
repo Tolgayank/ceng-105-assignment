@@ -21,3 +21,7 @@ char line[150];
     else if ((line[i] >= 'a' && line[i] <= 'z')) {
       ++consonant;
     }
+// check if the character is a digit
+    else if (line[i] >= '0' && line[i] <= '9') {
+      ++digit;
+    }
