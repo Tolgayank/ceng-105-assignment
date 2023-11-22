@@ -17,3 +17,7 @@ char line[150];
 // increment value of vowels by 1
       ++vowels;
     }
+    // if it is not a vowel and if it is an alphabet, it is a consonant
+    else if ((line[i] >= 'a' && line[i] <= 'z')) {
+      ++consonant;
+    }
