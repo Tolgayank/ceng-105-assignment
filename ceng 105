@@ -14,3 +14,6 @@ char line[150];
   // check if the character is a vowel
     if (line[i] == 'a'  line[i] == 'e'  line[i] == 'i' 
         line[i] == 'o'  line[i] == 'u') {
+// increment value of vowels by 1
+      ++vowels;
+    }
