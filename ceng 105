@@ -2,3 +2,5 @@
 int main() {
 char line[150];
   int vowels, consonant, digit, space;
+ // initialize all variables to 0
+  vowels = consonant = digit = space = 0;
