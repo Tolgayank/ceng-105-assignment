@@ -4,3 +4,7 @@ char line[150];
   int vowels, consonant, digit, space;
  // initialize all variables to 0
   vowels = consonant = digit = space = 0;
+ // get full line of string input
+  printf("Enter a line of string: ");
+  fgets(line, sizeof(line), stdin);
+
